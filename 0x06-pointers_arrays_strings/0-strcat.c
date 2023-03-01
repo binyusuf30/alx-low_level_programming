@@ -2,14 +2,18 @@
 
 /**
  * *_strcat - function that concatenates two strings @src to @dest
+ *
  * @src: the source string to append to @dest
+ *
  * @dest: the destination string to be concatenated upon
+ *
  * Return:pointer to the resulting string
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i;
+	int j;
 
 	i = 0;
 	j = 0;
