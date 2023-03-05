@@ -1,5 +1,4 @@
 #include <stdio.h>
-#incude "main.h"
 
 int main(void)
 {
