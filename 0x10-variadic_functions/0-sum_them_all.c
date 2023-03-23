@@ -11,15 +11,15 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list num;
+	va_list nums;
 	unsigned int k, sum = 0;
 
-	va_start(num, n);
+	va_start(nums, n);
 
 	for (k = 0; k < n; k++)
-		sum += va_arg(num, int);
+		sum += va_arg(nums, int);
 
-	va_end(num);
+	va_end(nums);
 
 	return (sum);
 }
