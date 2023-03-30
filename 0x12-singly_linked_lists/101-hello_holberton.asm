@@ -1,6 +1,6 @@
 ; Comments: writing in assembly language
 ; File: 101-hello_holberton.asm
-; Auth: Abdulsamad Momoh
+; Auth: Yusuf Bin Yusuf
 ; Desc: 64-bit assembly program that prints
 ;       Hello, Holberton followed by a new line.
 
